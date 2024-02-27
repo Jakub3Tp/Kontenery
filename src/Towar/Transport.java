@@ -1,11 +1,11 @@
 package Towar;
 
+import java.util.ArrayList;
+
 public abstract class Transport {
-    public void prztransportoj(){
+    private ArrayList<Kontener> kontenery = new ArrayList<>();
+    public void prztransportoj(Magazyn z, Magazyn dokat){
 
     }
-
-    public void zaladoj(){
-
-    }
+    public abstract void zaladoj(Kontener kontener);
 }
