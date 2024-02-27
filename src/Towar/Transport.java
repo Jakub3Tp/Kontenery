@@ -1,3 +1,5 @@
+package Towar;
+
 public abstract class Transport {
     public void prztransportoj(){
 
