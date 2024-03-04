@@ -1,4 +1,5 @@
 package Towar;
 
-public class Towar {
+public enum Towar {
+    Banany, Konsole, Granaty, Meble
 }
